@@ -6,3 +6,31 @@ Green: #00B172
 White: #FFF
 
 */
+img {
+    width: 100%;
+}
+.sectionone {
+    background-image: url("../images/landing.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+    
+}
+header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+header img {
+    width: 200px;
+}
+ .menuinicio {
+    display: flex;
+    list-style: none;
+ }
+
+.menuinicio li {
+    margin-right: 10px;
+}
